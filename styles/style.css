@@ -45,3 +45,8 @@ img {
 strong {
     color: sandybrown;
 }
+
+button {
+  background-color: sandybrown;
+  margin: 10px 320px ;
+}
