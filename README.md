@@ -1,4 +1,4 @@
-[Project-Vanuss](https://navinnavi19.github.io/Project-Vanuss/docs)
+[Project-Vanuss](https://navinnavi19.github.io/Project-Vanuss)
 ===================================================================
 
 **Vanuss**
