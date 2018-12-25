@@ -1,58 +1,62 @@
-<!DOCTYPE html>
-<html>
-    
-<!-- Header of the Page  -->
-    
-  <head>
-    <meta charset="utf-8">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type=text/css>
-    <title>About VANUSS</title>
-  </head>
-  
-<!-- Body of the Page  -->
-    
+<!doctype html>
+<html lang="en">
+        
+    <!-- Head -->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!-- Own CSS -->
+        <link rel="stylesheet" href="index.css">
+        <!-- TITLE -->
+        <title>VANUSS - Home Page</title>
+        <!-- Favicon  -->
+        <link rel="shortcut icon" type="image/png" href="images/icon/favicon-violet.png"/>
+    </head>
+    <!-- Body -->
     <body>
-        
-<!-- Homepage Logo -->
-        
-<div>
-     <p><a href="index.html" title="Home Page"><img src="img/logo.png" alt="vanuss logo of 6 members joining hands together"></a></p>  
-    
-    <h1><a href="index.html" title="Home Page"><strong>VANUSS</strong></a></h1>
-<hr> 
-</div>  
-        
-<!-- About Me -->
-  
-<div>
-     <h2>About Me</h2>
-        
-      <h4>Greetings,</h4>
-        
-      <p>This is Navin from an InfoSec background with over a year and half experience as a Security Adiministrator.I am also a Tech Enthusiast who love to stay updated in the world of technology. I have started this website in the view of sharing my technical knowledge, personal experiences in parallel to my learning.I hope to update the contents and the look of this webpage once in two weeks.</p>
-        
-      <p>With that said above, I have a little knowledge about basic programming also. But first when I decided to open a blog, I was put into a situation where I was not able to customize website to my needs. Because Wordpress and many other CMS have free blogging template but written in advanced HTML, CSS and PHP webpage template(well atleast I felt that way). So I started learning and developing web pages during the day and break them in the night to exploit the vulnerabilities. </p>
-        
-	  <p>Finally I hope you will find something worth your time.</p>
-  
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md navbar-dark px-5">
+            <!-- NavBar Brand Name -->
+            <a class="navbar-brand font-weight-bold" id="brandName" href="index.html">
+                <img src="images/icon/favicon-white.png" width="30" height="30" class="d-inline-block align-top" alt="vanuss_icons">
+                VANUSS
+            </a>
+            <!-- NavBar Toggler Icon -->
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- NavBar Items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav" >
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link pr-5" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-5 mr-5" href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-      <h2>"Thoughts Become Things"</h2>
-<hr>
-</div>  
-        
-<!-- First Post -->
+        <div class="jumbotron jumbotron-fluid "> 
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
 
-<div>
-       
-    <button> <a href="git101.html" title="Git101">Go To First Post  </a> </button>
-    <button> <a href="changelogs.html" title="View changes and previous versions">Go To Changelogs</a> </button>
-    <button> <a href="phpexploit.html" title="Coming Soon">Upcoming Post - PHP Exploitation with HACKXOR</a> </button>
-    
-        <script src="scripts/main.js" > </script>
-
-</div>
-        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
-    
 </html>

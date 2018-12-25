@@ -1,0 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141414;
+}
+
+.navbar {
+    background-color: #af009f;
+}
+
+.jumbotron {
+    background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
+    color: white;
+}
