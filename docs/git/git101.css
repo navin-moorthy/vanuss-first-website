@@ -1,0 +1,75 @@
+/* Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+#postColor {
+    margin-top: 3rem;   
+    width: 100%;
+}
+
+/* Small (sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium (md) devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #postColor {
+        margin-top: 6rem;   
+        width: 70%;
+    }
+}
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra (xl) large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+ /* Original CSS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    padding-bottom: 4px;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+#brandName, #cardTitle{
+    color: #af009f;
+}
+
+.active, .btn{
+    background-color: #af009f;
+}
+
+#navItemHover:hover {
+    color: #af009f;
+}
+
+.btn, #navItemHover, #postColor{
+    color: white;
+}
+
+.btn:hover{
+    color: black;
+}
+
+#navbarShadow {
+    box-shadow: 1px 1px 1px 1px #af009f;
+}
+
+a:hover{ 
+    text-decoration:none;
+}
+
+
