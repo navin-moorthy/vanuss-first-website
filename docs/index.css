@@ -32,7 +32,7 @@ Small (sm) devices (landscape phones, 576px and up) */
 #jumbotronBtn {
     font-size: 7px;
 } */
-
+/* 
 @media (min-width: 576px) {
     .jumbotron {
         background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
@@ -64,7 +64,7 @@ Small (sm) devices (landscape phones, 576px and up) */
     #jumbotronBtn {
         font-size: 15px;
     }
- }
+ } */
 
 /* Medium (md) devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
