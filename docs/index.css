@@ -2,10 +2,10 @@
 No media query since this is the default in Bootstrap
 
 Small (sm) devices (landscape phones, 576px and up) */
-/* 
+
 .jumbotron {
     background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
-    height: 35vh;
+    height: 40vh;
     width: 100%; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -31,8 +31,8 @@ Small (sm) devices (landscape phones, 576px and up) */
 
 #jumbotronBtn {
     font-size: 7px;
-} */
-/* 
+}
+
 @media (min-width: 576px) {
     .jumbotron {
         background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
@@ -64,11 +64,46 @@ Small (sm) devices (landscape phones, 576px and up) */
     #jumbotronBtn {
         font-size: 15px;
     }
- } */
+ }
 
 /* Medium (md) devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    /* .jumbotron {
+    .jumbotron {
+        background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
+        height: 100vh;
+        width: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        color: white;
+        text-align: center;
+    }
+    
+    #jumbotronIcon {
+        height: 14rem;
+        width: 14rem;
+        color: #af009f;
+    }
+    
+    #jumbotronBrandName {
+        font-size: 400%;
+        font-weight: bolder;
+        text-shadow: 5px 5px 5px #af009f;
+    }
+
+    #jumbotronLead {
+        font-size: 100%;
+        font-weight: bolder;
+    }
+
+    #jumbotronBtn {
+        font-size: 25px;
+    }
+}
+
+/* Large (lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .jumbotron {
         background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
         height: 100vh;
         width: 100%; 
@@ -98,18 +133,48 @@ Small (sm) devices (landscape phones, 576px and up) */
 
     #jumbotronBtn {
         font-size: 25px;
-    } */
-}
-
-/* Large (lg) devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
+    }
  }
 
 /* Extra (xl) large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     
 }
+
+.jumbotron {
+    background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
+    height: 100vh;
+    width: 100%; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#jumbotronIcon {
+    height: 14rem;
+    width: 14rem;
+    color: #af009f;
+}
+
+#jumbotronBrandName {
+    font-size: 400%;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px #af009f;
+}
+
+#jumbotronLead {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+#jumbotronBtn {
+    font-size: 25px;
+}
+
+
+ /* Original CSS */
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -148,37 +213,4 @@ body {
 
 .btn:hover{
     color: black;
-}
-
-
-.jumbotron {
-    background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
-    height: 100vh;
-    width: 100%; 
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    color: white;
-    text-align: center;
-}
-
-#jumbotronIcon {
-    height: 14rem;
-    width: 14rem;
-    color: #af009f;
-}
-
-#jumbotronBrandName {
-    font-size: 400%;
-    font-weight: bolder;
-    text-shadow: 5px 5px 5px #af009f;
-}
-
-#jumbotronLead {
-    font-size: 150%;
-    font-weight: bolder;
-}
-
-#jumbotronBtn {
-    font-size: 25px;
 }
