@@ -44,7 +44,7 @@ body {
     background-color: transparent;
 }
 
-#brandName, #cardTitle{
+#brandName, #cardTitle,#postMainHeading, #postHeadings, #postBold, #postCode, #hrLine{
     color: #af009f;
 }
 
@@ -68,8 +68,56 @@ body {
     box-shadow: 1px 1px 1px 1px #af009f;
 }
 
-a:hover{ 
+#postLinks {
+    color: white;
+    text-decoration-line:underline; 
+}
+#postLinks:hover { 
+    color: #af009f;
     text-decoration:none;
 }
 
+#postInitSpacing {
+    margin-top: 3rem;
+    text-indent: 5rem;
+}
 
+#postBold {
+    font-weight: bold;
+}
+
+.img-fluid {
+    border: 1px solid #af009f;
+    margin: 2rem;
+}
+
+#postCode {
+    font-size: 1rem;
+}
+
+#hrLine {
+    border: 1px solid #af009f;
+}
+
+
+
+/* FOOTER */
+.mini-footer {
+    background:transparent;
+    text-align:center;
+    padding:16px 0;
+    border-top: 1px solid #af009f;
+}
+.mini-footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:white;
+}
+.mini-footer p a {
+    color:#af009f;  
+}
+.mini-footer p a:hover {
+    color:#af009f;
+    text-decoration: underline;
+}
