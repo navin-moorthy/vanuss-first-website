@@ -2,78 +2,77 @@
 No media query since this is the default in Bootstrap */
 
 /* Post */
-    #postMainHeading, #postHeadings, #postBold, #postCode, #hrLine{
-    color: #af009f;
-    }
-
-    #postColor {
+    #postContent {
         color: white;
         margin-top: 3rem;   
         width: 100%;
     }
-
-    #postLinks {
-        color: white;
-        text-decoration-line:underline; 
+    #postMainHeading{
+    color: #af009f;
     }
-    #postLinks:hover { 
-        color: #af009f;
-        text-decoration:none;
-    }
-
     #postInitSpacing {
         text-indent: 2.5rem;
     }
-
-    #postBold {
-        font-weight: bold;
+    #postLinks{
+        border-left: 10px solid #af009f;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+    #postLinks a:hover, #postLinksAll:hover { 
+        color: #af009f;
+        text-decoration:none;
+    }
+    #postLinks a,#postLinksAll {
+        color: #af009f;
+        text-decoration-line:underline;
+    }
+    #postLinksAll {
+        font-size: 1.1rem;
     }
 
-    .img-fluid {
-        border: 1px solid #af009f;
-        margin: 2rem;
-    }
-
-    #postCode {
-        font-size: 1rem;
-    }
-
-    #hrLine {
-        border: 1px solid #af009f;
-    }
 /* Post */
-
 /* Small (sm) devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }
 
 /* Medium (md) devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     /* Original CSS For All Pages Default*/
     body {
         font-size: 1.1rem;
         letter-spacing: 1px;
     }
     /* Original CSS For All Pages Default*/
-
     /* Post */
-    #postColor {
+    #postContent {
         margin-top: 6rem;   
         width: 70%;
     }
     #postInitSpacing {
         text-indent: 5rem;
     }
-    #postCode {
-        font-size: 1.1rem;
+    #postLinks{
+        padding-left: 3rem;
+        font-size: 1.4rem;
+    }
+    #postLinksAll {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
     }
     /* Post */
 }
+
 /* Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #postLinks {
+        padding-left: 3rem;
+        font-size: 1.4rem;
+    }
 }
+
 /* Extra (xl) large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    
 }
 
 /* Original CSS For All Pages Default*/
@@ -109,30 +108,39 @@ No media query since this is the default in Bootstrap */
     }
 
     #navItemHover{
-        color: white;
+        color: white;    
     }
 
     #navbarShadow {
         box-shadow: 1px 1px 1px 1px #af009f;
     }
+    #postLinksAll a:hover { 
+        color: #af009f;
+        text-decoration:none;
+    }
+    #postLinksAll a {
+        color: #af009f;
+        text-decoration-line:underline;
+    }
 /* Original CSS For All Pages Default*/
 
 /* FOOTER */
-.mini-footer {
+    .mini-footer {
     background:transparent;
     text-align:center;
     padding:16px 0;
     border-top: 1px solid #af009f;
-}
-.mini-footer p {
+    }
+    .mini-footer p {
     margin:0;
     line-height:26px;
     color:white;
-}
-.mini-footer p a {
-    color:#af009f;  
-}
-.mini-footer p a:hover {
+    }
+    .mini-footer p a {
+        color:#af009f;  
+    }
+    .mini-footer p a:hover {
     color:#af009f;
     text-decoration: underline;
-}
+    }
+/* FOOTER */

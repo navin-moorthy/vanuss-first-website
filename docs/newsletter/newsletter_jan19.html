@@ -11,9 +11,9 @@
         <!-- GOOGLE FONT -->
         <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
         <!-- Own CSS -->
-        <link rel="stylesheet" href="git101.css">
+        <link rel="stylesheet" href="newlsetter_jan19.css">
         <!-- TITLE -->
-        <title>VANUSS - Git 101</title>
+        <title>VANUSS - 1st Top 10 Monthly Newsletter</title>
         <!-- Favicon  -->
         <link rel="shortcut icon" type="image/png" href="../images/icon/favicon-violet.png"/>
     </head> 
@@ -60,171 +60,97 @@
                 </ul>
             </div>
         </nav>  
-        <!-- NavBar-End -->     
+        <!-- NavBar-End -->
         <!-- Post-Start -->
-        <div class="container" id="postColor">
-            <h2 id="postMainHeading">What is git and how to use it effectively</h2>
-            <small>Posted on Dec 2018</small>
+        <div class="container" id="postContent">
+            <h2 id="postMainHeading">Top 10 Monthly Newsletter 1</h2>
+            <small>Posted on Jan 2018</small>
             <p>&nbsp;</p>
-            <p id="postInitSpacing">I have made this blog to quickly run you through the git basics and its commands.Let's get started!!!!</p>
-            <h4>What is Git?</h4>
-                <ul>
-                    <li>Git is <span id="postBold">version control system</span> that means it stores and creates a timeline of all your changes done to the code.</li>
-                    <li>This allows you to return to your code when something gets messy or when needed to look at something that you did previously.</li>
-                </ul>
-            <h4>What is GitHub?</h4>
-                <ul>
-                    <li>GitHub is a <span id="postBold">cloud code hosting platform</span> for version control and collaboration. It lets you and others work together on projects from anywhere. It's a go to place for most of the open source projects.</li>
-                </ul>
-            <h3 id="postHeadings" class="my-5">How does it work?</h3>           
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/working.png" alt="Three areas of git">            
-            <h4>Working Directory</h4>
-                <ul>
-                    <li>Area where of our files and directories and changes are living the time.</li>
-                </ul>
-            <h4>Staging Area</h4>          
-                <ul>
-                    <li>Files and directories that explicitly added to the staging area </li>
-                </ul>          
-            <h4>Git Repository</h4>           
-                <ul>
-                    <li>Where our snapshots are stored </li>
-                </ul>       
-            <h3 id="postHeadings" class="my-5">Working with Git on Linux</h3> 
-            <h4>Installing Git</h4>
-                <ul>
-                    <li>Open a terminal window.</li>
-                    <li>Copy, paste and run thethe following commands and hit Return.</li>
-                        <ul>
-                            <li><code id="postCode">sudo apt-get update</code></li>
-                            <li><code id="postCode">sudo apt-get upgrade</code></li>
-                            <li><code id="postCode">sudo apt-get install git</code></li>
-                        </ul>
-                </ul>
-            <h4>Getting started</h4>
-            <h5>Create a new repository</h5>
-                <ul>
-                    <li><code id="postCode">git init</code> - Inside a folder execute to make it as a working repository</li>
-                    <li><code id="postCode">git status</code> - To know what is going on in the working directory, what are the changes and what has been staged</li>
-                </ul>
-            <h5>Adding files </h5>
-                <ul>
-                    <li><code id="postCode">git add .</code> - To stage all the changes done in the current working directory like adding files and modifying the existing contents</li>
-                    <li><code id="postCode">git add *file name* </code>- To stage the particular file *file name* in which the changes were done</li>
-                </ul>
-            <h5>Adding multiple files of a certain type </h5>
-                <ul>
-                    <li><code id="postCode">git add *.any extension*</code> - To stage all the particular file types *.any extension* to which changes were done</li>
-                </ul>
-            <h5>Adding all files in directory (including hidden)</h5>
-                <ul>
-                    <li><code id="postCode">git add -A</code> - To add all files and folders from the directory that you're in. This is a good command for adding everything in your project, all at one time</li>
-                </ul>
-            <h5>Removing Files that are staged</h5>
-                <ul>
-                    <li><code id="postCode">git  reset HEAD *file name*</code> - To unstage a particular file which is ready to be committed. will be seen as untracked file</li>
-                </ul>
-            <h5>Ignoring files</h5>
-                <ul>
-                    <li><code id="postCode">touch .gitignore </code>- Add files and folders to ignore those from staging and committing. These files will not be tracked any more. Keeping the files to only local usage</li>
-                </ul>
-            <h5>Commit the staged files</h5>
-                <ul>
-                    <li><code id="postCode">git commit -m *message*</code>  - To commit the staged file or files to the git repository</li>
-                </ul>
-            <h5>Log view</h5>
-                <ul>
-                    <li><code id="postCode">git log</code> - To get the log of  all the commits done</li>
-                </ul>
-            <h4>Git Branches </h4>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/branches.jpg" alt="image of a main branch and new side branch">
-            <h5>Listing all branches</h5>
-                <ul>
-                    <li><code id="postCode">git branch</code> - To list all the branches in a repository</li>
-                </ul>
-            <h5>Adding a branch </h5>
-                <ul>
-                    <li><code id="postCode">git checkout -b *branch-name*</code> - To create a new branch and will switch to it </li>
-                </ul>
-            <h5>Changing branches</h5>
-                <ul>
-                    <li><code id="postCode">git checkout *branch-name*</code> - To switch to an existing branch</li>
-                </ul>
-            <h5>Merging a branch </h5>
-                <ul>
-                    <li><code id="postCode">git merge *branch-name*</code> - Current branch will merge to an existing branch</li>
-                </ul>
-            <h5>Removing a branch</h5>
-                <ul>
-                    <li><code id="postCode">git checkout -b *branch-name*</code> - To remove an existing branch</li>
-                </ul>
-            <h4>Now comes the final part</h4>
-            <h3>Link your Project to <a id="postLinks" href=https://github.com>github.com</a></h3>
-                <ul>
-                    <li><code id="postCode">git remote add origin *repository ssh link*</code> - Create a repository in GitHub(explained below) and get the SSH link to add to your local repository</li>
-                    <li><code id="postCode">git remote -v</code> - To view the status of the repository connection</li>
-                    <li><code id="postCode">git push -u origin master</code> - To push all the committed changes done to the working directory</li>
-                    <li><code id="postCode">git pull</code> - To get all the latest commits from the GitHub repository</li>
-                </ul>
-            <h5>Thanks to <a id="postLinks" href=https://www.youtube.com/channel/UCqo2YWBtmFSWhuUk4WEyfGg>Ian Schoonover</a> for the guide.</h5>
-            <h3 id="postHeadings" class="my-5">Working with Github on Windows</h3>
-            <h4>Create a Repository</h4>
-            <p>Repositories are used to store folders and files – anything about your project. </p> 
-                <ol>
-                    <li>Go to <a id="postLinks" href=https://github.com>github.com</a></li>
-                    <li>In the upper right corner, next to your avatar , click and then select New repository.</li>
-                    <li>Name your repository.</li>
-                    <li>Write a short description.</li>
-                    <li>Select Initialize this repository with a README.md</li>
-                    <li>Click Create repository</li>
-                </ol>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/newrepo.PNG" alt="repository creation screenshot">
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/createrepo.png" alt="repository creation screenshot">
-            <h4>Create a Branch</h4>
-            <p>Create a new branch to make a copy of your repository in the master branch as working in new branch wont affect the master. </p>
-                <ol>
-                    <li>Go to your new repository.</li>
-                    <li>Click the drop down at the top of the file list that says branch: master.</li>
-                    <li>Type a branch name into the new branch text box.</li>
-                    <li>Select the blue Create branch box or hit “Enter” on your keyboard.</li>
-                </ol>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block"  src="img/newbrach.PNG" alt="branch creation screenshot">
-            <h4>Edit and commit changes</h4>
-            <p> On GitHub, saved changes are called commits.</p>
-                <ol>
-                    <li>Click the  pencil icon in the upper right corner of the file view to edit.</li>
-                    <li>In the editor, write a bit about yourself.</li>
-                    <li>Write a commit message that describes your changes in new branch.</li>
-                    <li>Click Commit changes button.</li>
-                </ol>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/edit.PNG" alt="edited screenshot">
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/commit.PNG" alt="commited screenshot">
-            <h4>Open a Pull Request</h4>
-                <ol>
-                    <li>Click the Pull Request tab and click the green New pull request button.</li>
-                    <li>Look over your changes in the diffs on the Compare page.</li>
-                    <li>Click the big green Create Pull Request button.</li>
-                    <li>Give your pull request a title and write a brief description of your changes.</li>
-                </ol>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/pullrequest.PNG" alt="pull request screenshot">
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/createrpull.PNG" alt="pull confirm screenshot">
-            <h4>Merge your Pull Request</h4>
-                <ol>
-                    <li>Click the green Merge pull request button to merge the changes into master, after the code review and approval.</li>
-                    <li>Click Confirm merge.</li>
-                    <li>Now that your changes are pushed to master, go ahead and delete the branch. If you wish!!!</li>
-                </ol>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/mergepull.PNG" alt="merging screenshot">
-            <h3>Complete flow</h3>
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/createbranch.png" alt="complete flow">
-            <img class="img-fluid img-thumbnail rounded mx-auto d-block" src="img/pullmerge.png" alt="complete flow">
-            <h5>Thanks to <a id="postLinks" href="https://guides.github.com/">GitHub Guides</a> for the article reference.</h5>
-            <p class="mt-5">Finally, I hope this post was valuable for you so please, please share your feedback and suggestions to help me improve.</p>
-
-            <hr id="hrLine" class="mb-5">
+            <p id="postInitSpacing">Hello readers, welcome to my first edition of Top 10 Monthly newsletter. I have compiled a list of 10 cool things that I came across past month and I am very happy to give back to the community which helped me in learning a lot of information. This newsletter was inspired from &ldquo;The 5 Hacking Newsletter&rdquo;. I thought of publishing the newsletter twice in a month but for now I will stick to monthly one.</p>
+            <p id="postInitSpacing">So why wait, let&rsquo;s get started with this month&rsquo;s 10 cool things.</p>
+            <!-- 1 -->
+            <h3 id="postMainHeading">1. Blog of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://medium.com/@Nick_Jenkins/the-hitchhikers-guide-to-bug-bounty-hunting-throughout-the-galaxy-474ddb87ae15">"The Hitchhiker’s Guide to Bug Bounty Hunting Throughout the Galaxy. v2"</a></p>
+            </blockquote>
+            <p>This blog post by <a id="postLinksAll" href="https://medium.com/@Nick_Jenkins">Nick Jenkins</a> will be your first go to place if you are&nbsp; just starting your Web Security or Bug Bounty Hunting Journey. I have come across a lot and lots of blogs about &ldquo;How to kick start your career into bug bounty or Web-Sec&rdquo;, but he has just explained it too well.</p>
+            <!-- 1 -->
+            <!-- 2 -->
+            <h3 id="postMainHeading">2. Youtube Playlist of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://www.youtube.com/playlist?list=PLhixgUqwRTjx2BmNF5-GddyqZcizwLLGP">"LiveOverflow Web Hacking"</a></p>
+            </blockquote>
+            <p> <a id="postLinksAll" href="https://twitter.com/LiveOverflow">LiveOverflow</a> Web Hacking is a playlist of basics into web hacking. If you are a very beginner to the web security, then I would advise you to watch all the videos each only 10 min long.</p>
+            <blockquote class="blockquote">
+                <p class="mb-0">No bullshit fake hacking.</p>
+                <footer class="blockquote-footer">By <cite title="Source Title">LiveOverflow</cite></footer>
+            </blockquote>
+            <!-- 2 -->
+            <!-- 3 -->
+            <h3 id="postMainHeading">3. Website of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="http://h1.nobbd.de/">"The unofficial HackerOne disclosure timeline"</a></p>
+            </blockquote>
+            <p>This website was very helpful in keeping you up to date with the Hacker One&rsquo;s bug disclosure. For those who don&rsquo;t know about <a id="postLinksAll" href="https://www.hackerone.com/">Hacker One</a>, it&rsquo;s a Bug Bounty Platform to legally hunt for bugs in all the programs which are listed there. &nbsp;</p>
+            <!-- 3 -->
+            <!-- 4 -->
+            <h3 id="postMainHeading">4. Practise Lab of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://attackdefense.com/">"Attack Defense Lab"</a></p>
+            </blockquote>
+            <p>Attack defense is a lab for pen testers who can get live servers right from the browser to hack into. This lab has servers for all kind of pen testers starting from beginner to advanced and they update the lab with new servers every day. Recently they have introduced the CTF lab which will help you gain knowledge through these challenges.</p>
+            <!-- 4 -->
+            <!-- 5 -->
+            <h3 id="postMainHeading">5. Vulnerabilities Explained</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://www.hacksplaining.com">"Hacksplaining - SECURITY TRAINING FOR DEVELOPERS"</a></p>
+            </blockquote>
+            <p>Hacksplaining &ndash; As per the name here you can get a very clear explanation of all the most common vulnerabilities. Developed for Developers.</p>
+            <!-- 5 -->
+            <!-- 6 -->
+            <h3 id="postMainHeading">6. Session of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://slides.com/riddhishreechaurasia/automated-session-handlingusing-burp-macros">"Automated-Session-Handling using Burp Suite"</a></p>
+            </blockquote>
+            <p >A wonderful Session by <a id="postLinksAll" href="https://twitter.com/_riddhishree">Riddhishree</a> on Automated-Session-Handling, this could save a lot of time for pen testers who need to make different user logins for testing. I have attached the link to the slides shown in the session. Personally, this was my first Null meet in Bangalore chapter and I have gained a lot from those around there. Visit to <a id="postLinksAll" href="https://null.co.in/">Null</a> if you wish to attend the meetup.</p>
+            <!-- 6 -->
+            <!-- 7 -->
+            <h3 id="postMainHeading">7. Vulnerability of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://latesthackingnews.com/2018/11/02/bleedingbit-two-zero-day-vulnerabilities-affecting-wireless-access-point-bluetooth-chips/">"BLEEDING BIT"</a></p>
+            </blockquote>
+            <p>BLEEDING BIT- This is the combination of two Zero-Day Vulnerability in Texas Instruments' (TI) BLE chips used in Cisco, Meraki, and Aruba wireless access points. Anyone within the range of the access point and with enough knowledge can hack into the enterprise security over the air. Also do watch this YouTube video of this vulnerabilities hacked in <a id="postLinksAll" href="https://youtu.be/ZI-E37e6UHA?t=1164">live demonstration</a> presented at Black Hat Europe 2018.</p>
+            <!-- 7 -->
+            <!-- 8 -->
+            <h3 id="postMainHeading">8. Video of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://www.youtube.com/watch?v=Xd7huBu39qk">"What You Need to Know to be a Front End Developer in 2018"</a></p>
+            </blockquote>
+            <p>Go through the above YouTube video if you want to become a Front End Developer. Must read the first comment by Code 101. Very Helpful.</p>
+            <!-- 8 -->
+            <!-- 9 -->
+            <h3 id="postMainHeading">9. Best Website of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://www.youtube.com/watch?v=Y7m6rZXtNn8">"What I gained after 100 days of Code"</a></p>
+            </blockquote>
+            <p>Above YouTube video by Eleftheria Baotou about &ldquo;What I gained after 100 days of Code&rdquo; will give some helpful tips on self-motivation, time-management, setting priorities, staying organized, believing in yourself and keeping a balance between your career and personal life.</p>
+            <!-- 9 -->
+            <!-- 10 -->
+            <h3 id="postMainHeading">10. Post of the Month</h3>
+            <blockquote >
+                <p id="postLinks"><a href="https://medium.com/darius-foroux/how-to-make-next-year-your-best-year-64315c6c7fbb">"How To Make Next Year Your Best Year"</a></p>
+            </blockquote>
+            <p>Dear readers, take some time to read this blog post by <a id="postLinksAll" href="https://medium.com/@dariusforoux">Darius Foroux</a>. This will help you if you feel empty or you are blaming everything for your lack of growth. Best words from the post &ldquo;If you don&rsquo;t like your life situation, you change it. You don&rsquo;t complain. You don&rsquo;t talk. You take matters in your own hand.&rdquo;</p>
+            <blockquote class="blockquote">
+                <p class="mb-0">&ldquo;If you don&rsquo;t like your life situation, you change it. You don&rsquo;t complain. You don&rsquo;t talk. You take matters in your own hand.&rdquo;</p>
+                <footer class="blockquote-footer">By <cite title="Source Title">Darius Foroux</cite></footer>
+            </blockquote>
+            <!-- 10 -->
+            <p class="my-5" >I will soon add option to subscribe to this newsletter till then all newsletters will be posted in my website. Finally, I hope the information was valuable for you so please, please share your feedback and suggestions to help me improve.</p>
+            
         </div>
-        <!-- Post-End -->
-        <!-- Footer-Start-End -->
+
+        <!-- Footer-Start -->
         <div class="mini-footer">
             <div class="container">
               <div class="row">
