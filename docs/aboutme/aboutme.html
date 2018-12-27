@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <!-- Own CSS -->
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="aboutme.css">
         <!-- TITLE -->
         <title>VANUSS - Home Page</title>
         <!-- Favicon  -->
@@ -29,9 +29,9 @@
             </defs>
         </svg>
         <!-- NavBar -->
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top p-0" id="navbarShadow">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top pr-md-5" id="navbarShadow">
             <!-- NavBar Brand Name -->
-            <a class="navbar-brand  font-weight-bolder pl-5" id="brandName" href="index.html">
+            <a class="navbar-brand  font-weight-bolder pl-5" id="brandName" href="../index.html">
                 <svg class="icon icon-svg-dark" id="brandIcon"><use xlink:href="#icon-svg-dark"></use></svg>
                 VANUSS
             </a>
@@ -42,90 +42,56 @@
             <!-- NavBar Items -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" >
-                    <li class="nav-item active">
-                        <a class="nav-link font-weight-bold ml-5 ml-md-0" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold ml-5 ml-md-0" id="navItemHover" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto" >
+                <ul class="navbar-nav ml-auto pr-md-5" >
                     <li class="nav-item">
-                        <a class="nav-link pl-5" id="navItemHover" href="#">Blog</a>
+                        <a class="nav-link pr-5 ml-5 ml-md-0" id="navItemHover" href="#">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link pr-5 pl-5 mr-5" id="navItemHover" href="aboutme.html">About Me</a>
+                    <li class="nav-item active">
+                        <a class="nav-link ml-5 ml-md-0" href="../aboutme/aboutme.html">About Me</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <!-- Jumbotron Homepage -->
-        <div class="jumbotron jumbotron-fluid m-0"> 
-            <div class="container font">
-                <svg class="icon icon-svg-dark" id="jumbotronIcon"><use xlink:href="#icon-svg-dark"></use></svg>
-                <h1 class="display-3" id="jumbotronBrandName">VANUSS</h1>
-                    <p class="lead" id="jumbotronLead">A Personal Blog to Share the Interest with Like-Minded Individuals</p>
-                    <p class="lead" id="jumbotronLead">By Navin</p>
-                <a class="btn" id="jumbotronBtn" href="aboutme.html">About Me</a>
-            </div>
-        </div>
-
-        <p class="h4 m-5 text-center" id="latestPosts">Latest Posts</p>
-        <!-- LIST OF BLOG POST AS CARDS-->
-        <div class="container-fluid my-5">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-100">
-                        <a href="#">
-                            <div class="card-body">
-                                <img class="card-img-top" id="cardImg" src="https://images.pexels.com/photos/273011/pexels-photo-273011.jpeg" alt="">
-                                <h5 class="card-title" id="cardTitle">Monthly Newsletter 1</h5>
-                                <p class="card-text" >List of 10 cool things that I have come across this month</p>
-                            </div>
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Jan 2019</small>
-                            </div> 
-                        </a>             
+        <!-- ABOUT ME - START -->
+        <div id="aboutMe">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid img-profile rounded-circle mb-2" src="https://lh3.googleusercontent.com/PVRYK6q4J0XdYv-Z_69RqVYC-7g73H6WluNtX39dQFZ5MI0sggSO3L8dDVssDshdX7I0MBvycsXHw088wXC4zwpdr6O0xmZXzc8D0jXBlGrRyqv6fEYo2eHCYiZrKTS_6qDU5U2xuzoJ3Bf-ZBjgQpWgWeumPApLZTh63xGRuI3fC3-UnBVOZ2BxtAvtHl5fPAElz6RdULUATzR42ezy_MCG2Uf5R9dET6Y4Cl7-tTzoojDJ2DcKhFM4Vfb1IaAGsuwhvPgY8F6PTzgmCXqelcnAeMFmUhww_iKGqdKstK6uv18iwzDxYqqzhSzuUmcfC0r5YbHaBAblyaoY_yOkwNPi2GYcCRwRStm3LWKpumYrCOC2qetGiI4x-31qZxvZCrllEiprfFK5CAosx2NtKiWQFtm1eKTdF4q6eThZX3g8dtGv7Oc2O5KEUbfsA9tNzNn3xiV-uV1iqkEurMgu0BNn0b-8yhUXuN-dXd9cT1wSIDrNZeOkXZ-nRY2mGhkPzrvn8xd_ewa8S0EV6lT2xUvFT_-ClmUzveaYTVPIJ5eqabtVoYRTVeqRKCFXfio1HhMJuHEJYP1NsS3xYvBzxUI5y8N5AgiiUUht6PDHyWujZQUT83HT4_5A3cu7TX-1FdP9RhT6wt3U_e1uPbWgWlFhJw=s626-no" alt="Navin's Picture">
+                        <h2>Navin A</h2>
                     </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-100">
-                        <a href="git/git101.html"> 
-                            <div class="card-body">
-                                <img  class="card-img-top" id="cardImg" src="https://cdn-images-1.medium.com/max/800/1*qwFrTMnFkcd3U9rFKwwacw.png" alt="">
-                                <h5 class="card-title" id="cardTitle" >What is Git and it's effectiveness</h5>
-                                <p class="card-text" >This post can quickly walk you through the git basics and its commands if you are new or coming back after a break.</p>
-                            </div> 
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Dec 2018</small>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-100">
-                        <!-- <a href="#">  -->
-                            <div class="card-body">
-                                <img  class="card-img-top" id="cardImg" src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg" alt="">
-                                <h5 class="card-title" id="cardTitle" >Coming Soon</h5>
-                            </div> 
-                        <!-- </a> -->
+                    <div class="col-8">
+                        <h2>About Me</h2>
+                        <h4>Greetings,</h4>
+                        <p>This is Navin from an InfoSec background with over a year and half experience as a Security Adiministrator.I am also a Tech Enthusiast who love to stay updated in the world of technology. I have started this website in the view of sharing my technical knowledge, personal experiences in parallel to my learning.I hope to update the contents and the look of this webpage once in two weeks.</p>
+                        <p>With that said above, I have a little knowledge about basic programming also. But first when I decided to open a blog, I was put into a situation where I was not able to customize website to my needs. Because Wordpress and many other CMS have free blogging template but written in advanced HTML, CSS and PHP webpage template(well atleast I felt that way). So I started learning and developing web pages during the day and break them in the night to exploit the vulnerabilities. </p>
+                        <p>Finally I hope you will find something worth your time.</p>
+                        <h2>"Thoughts Become Things"</h2>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Footer -->
+         </div>
+        <!-- ABOUT ME - END -->
+        <!-- FOOTER - START -->
         <div class="mini-footer">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <div class="copyright-text">
                     <p>© 2019
-                      <a href="index.html">VANUSS</a>. All rights reserved. Theme Designed by
-                      <a href="aboutme.html">Navin</a>
+                      <a href="../index.html">VANUSS</a>. All rights reserved. Theme Designed by
+                      <a href="../aboutme/aboutme.html">Navin</a>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
         </div>
+        <!-- FOOTER - END -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
