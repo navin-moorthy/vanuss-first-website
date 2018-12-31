@@ -2,25 +2,41 @@
 No media query since this is the default in Bootstrap */
 
 /* ABOUT ME */
-.container-fluid {
-    margin: 3.5rem auto ;
-    color: white;
-}
+    .container-fluid {
+        margin: 3.5rem auto ;
+        color: white;
+    }
 
-.container-fluid .row .col-12 .img-profile {
-    max-width: 50rem;
-    max-height: 50rem;
-    width: 8rem;
-    height: 8rem;
-} 
+    .container-fluid .row .col-12 .img-profile {
+        max-width: 50rem;
+        max-height: 50rem;
+        width: 8rem;
+        height: 8rem;
+    } 
 
-.blockquote p{
-    color: #af009f;
-    border-left: 10px solid #af009f;
-    padding-left: 1rem;
-    font-size: 1.3rem;
-}
+    .blockquote p{
+        color: #af009f;
+        border-left: 10px solid #af009f;
+        padding-left: 1rem;
+        font-size: 1.3rem;
+    }
 
+    .fab {
+        color: white;
+        letter-spacing: 1rem;
+    }
+
+    .fa-twitter:hover {
+        color: #00aced;
+        text-shadow: 0 0 15px #00aced;
+        transition: all 0.5s ease;
+    }
+
+    .fa-linkedin-in:hover {
+        color: #0077B5;
+        text-shadow: 0 0 15px #0077B5;
+        transition: all 0.5s ease;
+    }
 /* ABOUT ME */
 
 /* Small (sm) devices (landscape phones, 576px and up) */
@@ -73,7 +89,7 @@ No media query since this is the default in Bootstrap */
         background-color: black;
     }
 
-    .icon {
+    .icon{
         display: inline-block;
         width: 1em;
         height: 1em;
@@ -99,7 +115,7 @@ No media query since this is the default in Bootstrap */
         color: #af009f;
     }
 
-    .btn, #navItemHover{
+    #navItemHover{
         color: white;    
     }
 

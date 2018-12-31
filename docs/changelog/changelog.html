@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
         
-    <!-- Head-Start -->
+    <!-- Head -->
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131539819-1"></script>
@@ -20,16 +20,15 @@
         <!-- GOOGLE FONT -->
         <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
         <!-- Own CSS -->
-        <link rel="stylesheet" href="blog.css">
+        <link rel="stylesheet" href="changelog.css">
         <!-- TITLE -->
-        <title>VANUSS - Blog</title>
+        <title>VANUSS - Changelog</title>
         <!-- Favicon  -->
         <link rel="shortcut icon" type="image/png" href="../images/icon/favicon-violet.png"/>
-    </head> 
-    <!-- Head-End -->
-    <!-- Body-Start -->
+    </head>
+    <!-- Body -->
     <body>
-        <!-- Logo Content Start -->
+
         <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
                 <symbol id="icon-svg-dark" viewBox="0 0 32 32">
@@ -40,84 +39,91 @@
                 </symbol>
             </defs>
         </svg>
-        <!-- Logo Content End -->
-        <!-- NavBar-Start -->
+        <!-- NavBar -->
         <nav class="navbar navbar-expand-md navbar-dark sticky-top" id="navbarShadow">
             <!-- NavBar Brand Name -->
             <a class="navbar-brand  font-weight-bolder pl-5" id="brandName" href="../index.html">
-                <svg class="icon icon-svg-dark" id="brandIcon"><use xlink:href="#icon-svg-dark"></use></svg>
+                <svg class="icon icon-svg-dark"><use xlink:href="#icon-svg-dark"></use></svg>
                 VANUSS
             </a>
             <!-- NavBar Toggler Icon -->
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
-                <span id="postBold" class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <!-- NavBar Items -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav" >
                     <li class="nav-item">
-                        <a class="nav-link ml-5 ml-md-0" id="navItemHover" href="../index.html">Home <span id="postBold" class="sr-only">(current)</span></a>
+                        <a class="nav-link ml-5 ml-md-0" id="navItemHover" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto" >
-                    <li class="nav-item">
-                        <a class="nav-link pr-5 pl-5" id="navItemHover" href="../changelog/changelog.html">Changelogs</a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link font-weight-bold ml-5 ml-md-0" href="blog.html">Blog</a>
+                        <a class="nav-link font-weight-bold pl-5 pl-md-2" href="changelog.html">Changelogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pl-5" id="navItemHover" href="../blog/blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link pr-5 pl-5 mr-5" id="navItemHover" href="../aboutme/aboutme.html">About Me</a>
                     </li>
                 </ul>
             </div>
-        </nav>  
-        <!-- NavBar-End -->
-        <p class="h4 m-5 text-center" id="latestPosts">Latest Posts</p>
-        <!-- LIST OF BLOG POST AS CARDS-->
-        <div class="container-fluid my-5">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-90">
-                        <a href="../newsletter/newsletter_jan19.html">
-                            <div class="card-body">
-                                <img class="card-img-top" id="cardImg" src="../images/images/newsletter1.jpeg" alt="">
-                                <h5 class="card-title" id="cardTitle">Monthly Newsletter 1</h5>
-                                <p class="card-text" >List of 10 cool things that I have come across this month</p>
-                            </div>
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Jan 2019</small>
-                            </div> 
-                        </a>             
-                    </div>
+        </nav>
+        <!-- NavBar -->
+        <p class="h4 m-5 text-center" id="changeLog">Change Logs</p>
+        <!-- Timeline -->
+        <div class="timeline my-5">
+            <div class="timelineContainer left">
+                <div class="content">
+                <h3>Version 1.01</h3>
+                <ul>
+                    <li>Published the Website publicly</li>
+                    <li>New UI built using Bootstrap</li>
+                    <li>Improved all the pages</li>
+                    <li>First Monthly Newsletter published</li>
+                    <li>Removed Redirection from GHPages to vanuss.org</li>
+                    </ul>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto h-90">
-                        <a href="../git/git101.html"> 
-                            <div class="card-body">
-                                <img  class="card-img-top" id="cardImg" src="../images/images/git&github.png" alt="">
-                                <h5 class="card-title" id="cardTitle" >What is Git and it's effectiveness</h5>
-                                <p class="card-text" >This post can quickly walk you through the git basics and its commands if you are new or coming back after a break.</p>
-                            </div> 
-                            <div class="card-footer">
-                                <small id="cardTitle">Posted on Dec 2018</small>
-                            </div>
-                        </a>
-                    </div>
+            </div>
+            <div class="timelineContainer right">
+                <div class="content">
+                <h3>Version 0.46.bm3.11</h3>
+                <ul>
+                    <li>Published my first post about git</li>
+                    <li>Added CSS content and visuals</li>
+                    <li>Added Changelogs</li>
+                    <li>Permanent Redirection from  GHPages to vanuss.org</li>
+                    <li>Implemented HTTPS Everywhere</li>
+                    <li>Updated About Me contents</li>
+                    </ul>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 pb-5">
-                    <div class="card mx-auto">
-                        <!-- <a href="#">  -->
-                            <div class="card-body">
-                                <img  class="card-img-top" id="cardImg" src="../images/images/underconstruction.jpeg" alt="">
-                                <h5 class="card-title" id="cardTitle" >Coming Soon</h5>
-                            </div> 
-                        <!-- </a> -->
-                    </div>
+            </div>
+            <div class="timelineContainer left">
+                <div class="content">
+                <h3>Version 0.43.b881</h3>
+                <ul>
+                    <li>Created a Plain HTML Site</li>
+                    <li>Added About Me</li>
+                    <li>Linked GitHub Page with my Domain</li>
+                    <li>Designed the Initial Logo</li>
+                </ul>
+                </div>
+            </div>
+            <div class="timelineContainer right">
+                <div class="content">
+                <h3>Version 0.41.b1</h3>
+                <ul>
+                    <li>Initial Idea from Security Researchers</li>
+                    <li>Open Source Website hosted in GitHub</li>
+                    <li>Bought two domains</li>
+                    <li>Created a Hello World Page</li>
+                </ul>
                 </div>
             </div>
         </div>
-        <!-- Footer-Start -->
+        <!-- Timeline -->
+        <!-- Footer -->
         <div class="mini-footer">
             <div class="container">
               <div class="row">
@@ -132,12 +138,11 @@
               </div>
             </div>
         </div>
-        <!-- Footer-End -->
+        <!-- Footer -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <!-- Body-End -->
     </body>
 </html>
