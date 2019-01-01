@@ -89,6 +89,15 @@ No media query since this is the default in Bootstrap */
         background-color: black;
     }
 
+    .fas {
+        color:#af009f;
+        font-size: 1.5rem;
+    }
+    
+    #hamBurger {
+        border: 1px solid #af009f;
+    }
+
     .icon{
         display: inline-block;
         width: 1em;

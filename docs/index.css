@@ -1,7 +1,6 @@
 /* Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 
-
 .jumbotron {
     background-image: url('https://images.pexels.com/photos/986772/pexels-photo-986772.jpeg');
     height: 50vh;
@@ -164,6 +163,17 @@ body {
     background-color: black;
 }
 
+
+.fas {
+    color:#af009f;
+    font-size: 1.5rem;
+}
+
+#hamBurger {
+    border: 1px solid #af009f;
+}
+
+
 .icon {
     display: inline-block;
     width: 1em;
@@ -178,7 +188,7 @@ body {
     background-color: black;
 }
 
-#brandName, #cardTitle{
+#brandName, #cardTitle, .navbar-toggler-icon{
     color: #af009f;
 }
 
