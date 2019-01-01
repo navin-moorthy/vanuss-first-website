@@ -30,7 +30,7 @@ No media query since this is the default in Bootstrap */
     .timeline {
         position: relative;
         margin: 0 auto;
-        max-width: 400px;
+        max-width: 250px;
     }
 
     .timeline::after {
@@ -54,7 +54,7 @@ No media query since this is the default in Bootstrap */
         position: absolute;
         width: 25px;
         height: 25px;
-        right: 427px;
+        right: 262px;
         background-color: white;
         border: 4px solid #af009f;
         top: 23px;
