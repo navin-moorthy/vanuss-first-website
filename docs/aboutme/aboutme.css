@@ -26,17 +26,46 @@ No media query since this is the default in Bootstrap */
         letter-spacing: 1rem;
     }
 
+    .fa-twitter {
+        color: #00aced;
+    }
+
+    .fa-linkedin {
+        color: #0077B5;
+    }
+
+    .fa-facebook {
+        color: #3C5A99;
+    }
+
+    .fa-github {
+        color: #fafafa;
+    }
+
     .fa-twitter:hover {
         color: #00aced;
         text-shadow: 0 0 15px #00aced;
         transition: all 0.5s ease;
     }
 
-    .fa-linkedin-in:hover {
+    .fa-linkedin:hover {
         color: #0077B5;
         text-shadow: 0 0 15px #0077B5;
         transition: all 0.5s ease;
     }
+
+    .fa-facebook:hover {
+        color: #3C5A99;
+        text-shadow: 0 0 15px #3C5A99;
+        transition: all 0.5s ease;
+    }
+
+    .fa-github:hover {
+        color: #fafafa;
+        text-shadow: 0 0 15px #fafafa;
+        transition: all 0.5s ease;
+    }
+
 /* ABOUT ME */
 
 /* Small (sm) devices (landscape phones, 576px and up) */
