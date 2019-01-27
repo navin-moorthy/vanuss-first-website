@@ -2,7 +2,7 @@
 No media query since this is the default in Bootstrap */
 
 .jumbotron {
-    background-image: url('/images/images/Laptop.jpg');
+    background-image: url('images/images/Laptop.jpg');
     height: 50vh;
     width: 100%; 
     background-size: 100% 100%;
@@ -37,7 +37,7 @@ No media query since this is the default in Bootstrap */
 /* Small (sm) devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .jumbotron {
-        background-image: url('/images/images/Laptop.jpg');
+        background-image: url('images/images/Laptop.jpg');
         height: 70vh;
         width: 100%; 
         background-size: 100% 100%;
@@ -82,7 +82,7 @@ No media query since this is the default in Bootstrap */
     }
     /* Original CSS For All Pages Default*/
     .jumbotron {
-        background-image: url('/images/images/Laptop.jpg');
+        background-image: url('images/images/Laptop.jpg');
         height: 100vh;
         width: 100%; 
         background-size: 100% 100%;
