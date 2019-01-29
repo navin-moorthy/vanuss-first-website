@@ -8,7 +8,15 @@ No media query since this is the default in Bootstrap */
         width: 100%;
     }
     #postMainHeading{
-    color: #af009f;
+        color: #af009f;
+        font-size: 2rem;
+        text-shadow: 2px 2px 1px #cc0052;
+    }
+    #postHeading{
+        color: #af009f;
+    }
+    #postMainHeadingFooter{
+        font-size: 0.8rem;
     }
     #postLinks{
         border-left: 10px solid #af009f;
@@ -53,6 +61,9 @@ No media query since this is the default in Bootstrap */
         font-size: 1.3rem;
         letter-spacing: 1px;
     }
+    #postMainHeading{
+        font-size: 2.5rem;
+    }
     /* Post */
 }
 
@@ -61,6 +72,10 @@ No media query since this is the default in Bootstrap */
     #postLinks {
         padding-left: 3rem;
         font-size: 1.4rem;
+    }
+    #postContent {
+        margin-top: 6rem;   
+        width: 55%;
     }
 }
 
