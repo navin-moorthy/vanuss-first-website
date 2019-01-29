@@ -117,7 +117,7 @@ No media query since this is the default in Bootstrap */
 /* Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .jumbotron {
-        background-image: url('images/images/Laptop.jpeg');
+        background-image: url('images/images/Laptop.jpg');
         height: 100vh;
         width: 98%; 
         background-size: 100% 100%;
