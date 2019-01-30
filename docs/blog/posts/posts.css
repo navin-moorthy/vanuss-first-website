@@ -2,39 +2,42 @@
 No media query since this is the default in Bootstrap */
 
 /* Post */
+    .img-fluid {
+        border: 1px solid #af009f;
+    }
+    .font-weight-bolder, #postHeading{
+        color: #af009f;
+    }
     #postContent {
-        color: white;
+        color: #dddddd;
         margin-top: 3rem;   
         width: 100%;
     }
     #postMainHeading{
         color: #af009f;
         font-size: 2rem;
-        text-shadow: 2px 2px 1px #cc0052;
-    }
-    #postHeading{
-        color: #af009f;
+        text-shadow: 2px 1px 4px #cc0052;
     }
     #postMainHeadingFooter{
         font-size: 0.8rem;
     }
-    #postLinks{
+    #postQuotedLinks{
         border-left: 10px solid #af009f;
         padding-left: 1rem;
         font-size: 1.2rem;
     }
-    #postLinks a:hover, #postLinksAll:hover { 
+    #postQuotedLinks a{
+        color: #af009f;
+        text-decoration:underline;
+    }
+    #postQuotedLinks a:hover{ 
         color: #af009f;
         text-decoration:none;
     }
-    #postLinks a,#postLinksAll {
+    #postCode {
         color: #af009f;
-        text-decoration-line:underline;
+        font-size: 1rem;
     }
-    #postLinksAll {
-        font-size: 1.1rem;
-    }
-
 /* Post */
 /* Small (sm) devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -53,28 +56,22 @@ No media query since this is the default in Bootstrap */
         margin-top: 6rem;   
         width: 70%;
     }
-    #postLinks{
+    #postQuotedLinks{
         padding-left: 3rem;
         font-size: 1.4rem;
     }
-    #postLinksAll {
-        font-size: 1.3rem;
-        letter-spacing: 1px;
-    }
     #postMainHeading{
         font-size: 2.5rem;
+    }
+    #postCode {
+        font-size: 1.1rem;
     }
     /* Post */
 }
 
 /* Large (lg) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #postLinks {
-        padding-left: 3rem;
-        font-size: 1.4rem;
-    }
     #postContent {
-        margin-top: 6rem;   
         width: 55%;
     }
 }
@@ -87,78 +84,64 @@ No media query since this is the default in Bootstrap */
 /* Original CSS For All Pages Default*/
     body {
         font-family: 'Karla', sans-serif;
-        background-color: black;
+        background-color: #111111;
     }
-    
     .fas {
         color:#af009f;
         font-size: 1.5rem;
     }
-
     #hamBurger {
         border: 1px solid #af009f;
     }
-
     .icon {
-        display: inline-block;
         width: 1em;
         height: 1em;
-        stroke-width: 0;
-        stroke: currentColor;
         fill: currentColor;
-        padding-bottom: 4px;
     }
-
     .navbar {
         background-color: black;
     }
-
-    #brandName{
-        color: #af009f;
-    }
-
-    .active{
-        background-color: #af009f;
-    }
-
-    #navItemHover:hover {
-        color: #af009f;
-    }
-
-    #navItemHover{
-        color: white;    
-    }
-
     #navbarShadow {
         box-shadow: 1px 1px 1px 1px #af009f;
     }
-    #postLinksAll a:hover { 
+    #brandName{
+        color: #af009f;
+    }
+    .active{
+        background-color: #af009f;
+    }
+    #navItemHover:hover {
+        color: #af009f;
+    }
+    #navItemHover{
+        color: white;    
+    }
+    #allLinks:hover { 
         color: #af009f;
         text-decoration:none;
     }
-    #postLinksAll a {
+    #allLinks {
         color: #af009f;
-        text-decoration-line:underline;
+        text-decoration:underline;
     }
 /* Original CSS For All Pages Default*/
 
-/* FOOTER */
+/* FOOTER For All Pages Default*/
     .mini-footer {
-    background:transparent;
-    text-align:center;
-    padding:16px 0;
+    background-color: black;
+    text-align: center;
+    padding: 16px 0;
     border-top: 1px solid #af009f;
     }
     .mini-footer p {
-    margin:0;
-    line-height:26px;
     color:white;
     }
     .mini-footer p a {
         color:#af009f;  
+        text-decoration: underline;
     }
     .mini-footer p a:hover {
     color:#af009f;
-    text-decoration: underline;
+    text-decoration: none;
     }
-/* FOOTER */
+/* FOOTER For All Pages Default*/
